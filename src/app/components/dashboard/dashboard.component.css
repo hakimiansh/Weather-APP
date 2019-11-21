@@ -1,13 +1,13 @@
 .dashboard-container{
     background-color: whitesmoke;
-    ;
+
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .a-container  {
-    width: 100%;
+    width:55%;
     
     display:flex;
     flex-direction: row;
@@ -49,7 +49,7 @@
     border: solid 3px grey;
     height: 10%;
     width: 30%;
-    margin: 2%;
+    margin: 1%;
     padding: 1%;
     color: white;
 }
@@ -79,10 +79,17 @@
     align-items: center;
     justify-content: center;
     margin-top: 1%;
+    font-size:87%;
+    height: 30%;
+}
+.weatherText{
+    font-size:65px;
 }
 
 .weekDay-container{
+    box-sizing: border-box;
     display:flex;
+   
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -117,9 +124,12 @@
 
 
 .weekDay-text{
+    
+    justify-content: center;
     text-align: center;
     color: white;
     font-weight:bold ;
+    
     width: 100%;
     height: 50%;
     background: rgba(9,51,121,1);
@@ -140,3 +150,63 @@
 .heartIcon{
 color: crimson;
 }
+
+@media screen and (max-width: 992px) {
+    .weatherText {
+       
+      font-size:87%;
+    }
+    .degreeText{
+        font-size: 80%;
+        font-weight: bold;
+    }
+
+    .weekDay-container {
+        overflow: hidden;
+        content: "";
+        display: block;
+        clear: both;
+        /* display:flex; */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: steelblue;
+        /* height: 70%; */
+        width: 100%;
+        margin: 2%;
+        padding: 1%;
+    }
+    .weekDay{
+        float:left;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient( rgba(9,51,121,1) 35%, rgba(0,212,255,1) 100%);;
+        color:white;
+         border-radius: 10%;
+        height: 23%;
+        width: 24%;
+        margin: 6%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 6%;
+    }
+
+    .weekday-weatherText{
+        font-size: 93%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .weatherText {
+      font-size:87%
+    }
+    .degreeText{
+        font-size: 80%;
+        font-weight: bold;
+    }
+
+    .weekDay-container {
+        height: 70%;
+    }
+  }

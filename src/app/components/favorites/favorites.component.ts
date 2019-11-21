@@ -26,7 +26,7 @@ export class FavoritesComponent implements OnInit {
   ngOnInit() {
 
     this.favoritesIds = JSON.parse(localStorage.getItem("favorites")) || [];
-    console.log("favoritesIds: ", this.favoritesIds);
+    
 
     for (let i = 0; i < this.favoritesIds.length; i++) {
       var c = { id: this.favoritesIds[i].id }
