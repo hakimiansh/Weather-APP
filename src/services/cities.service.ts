@@ -196,10 +196,10 @@ export class CitiesService {
           celsius: "23",
           fahrenheit: "60"
         },
-        logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png"
+        logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png"
       },
       weekDays: [{
-        date: new Date(), logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png",
+        date: new Date(), logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png",
         dayName: "Tuesday",
         weatherText: "Sunny",
         degree: {
@@ -208,7 +208,7 @@ export class CitiesService {
         },
       },
       {
-        date: new Date(), logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png",
+        date: new Date(), logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png",
         dayName: "Tuesday",
         weatherText: "Sunny",
         degree: {
@@ -217,7 +217,7 @@ export class CitiesService {
         }
       },
       {
-        date: new Date(), logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png",
+        date: new Date(), logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png",
         dayName: "Tuesday",
         weatherText: "Sunny",
         degree: {
@@ -226,7 +226,7 @@ export class CitiesService {
         }
       },
       {
-        date: new Date(), logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png",
+        date: new Date(), logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png",
         dayName: "Tuesday",
         weatherText: "Sunny",
         degree: {
@@ -235,7 +235,7 @@ export class CitiesService {
         }
       },
       {
-        date: new Date(), logoUrl: "https://developer.accuweather.com/sites/default/files/01-s.png",
+        date: new Date(), logoUrl: "http://developer.accuweather.com/sites/default/files/01-s.png",
         dayName: "Tuesday",
         weatherText: "Sunny",
         degree: {
