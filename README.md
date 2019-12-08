@@ -1,4 +1,5 @@
-Weather-APP
+<b>Weather-APP<b>
+
 By the Search and selected the required City, you will receive the current weather on this city and it;s weather within the upcoming 5 days.
 * Once you will add the first favority city, you will be able to see the favoites cities in the "Favorites" page", otherwise it will be without any content.
 * once you'll click on any favorite city, it's will return to the dashboard to show you the weather of selected city.
