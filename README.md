@@ -1,27 +1,11 @@
-# WeatherApp
+Weather-APP
+By the Search and selected the required City, you will receive the current weather on this city and it;s weather within the upcoming 5 days.
+* Once you will add the first favority city, you will be able to see the favoites cities in the "Favorites" page", otherwise it will be without any content.
+* once you'll click on any favorite city, it's will return to the dashboard to show you the weather of selected city.
+* on the click of the button "F/C" , the celsius will change to fahrenheit in this page only.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+#activation:
+1) Download the project (use clone or zip download).
+2) Enter the project's path in the terminal and run the command "npm i" (in order to install thrid-part libraries).
+3) run the command "ng serve -o" and wait for the browser to open the main project page.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
