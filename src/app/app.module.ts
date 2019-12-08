@@ -10,13 +10,17 @@ import { AppComponent } from './app.component';
 import { NavigateComponent } from './components/navigate/navigate.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FavoritesComponent } from './components/favorites/favorites.component';
+import { WeekDayComponent } from './components/week-day/week-day.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigateComponent,
     DashboardComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    WeekDayComponent,
+  
   ],
   imports: [
     BrowserModule,

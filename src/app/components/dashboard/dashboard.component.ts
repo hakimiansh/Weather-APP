@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { City } from 'src/app/modules/city';
 import { CitiesService } from 'src/services/cities.service';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import {ActivatedRoute} from '@angular/router';
+import { Day } from 'src/app/modules/day';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,6 +13,7 @@ import {ActivatedRoute} from '@angular/router';
 
 
 export class DashboardComponent implements OnInit {
+  @Output() day:Day;
   currentCity: City;
   celsius: boolean;
   toggleButtonText: string

@@ -55,7 +55,7 @@
 }
 
 .todayIconDegrees-container{
-    width: 80%;
+    width: 100%;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +63,9 @@
 }
 
 .degreeText{
-    font-size: 80px;
+    text-align: center;
+    width: 80%;
+    font-size: 87px;
     font-weight: bold;
 }
 
@@ -83,7 +85,7 @@
     height: 30%;
 }
 .weatherText{
-    font-size:65px;
+    font-size:87px;
 }
 
 .weekDay-container{
@@ -157,7 +159,7 @@ color: crimson;
       font-size:87%;
     }
     .degreeText{
-        font-size: 80%;
+        font-size: 70%;
         font-weight: bold;
     }
 
@@ -166,31 +168,15 @@ color: crimson;
         content: "";
         display: block;
         clear: both;
-        /* display:flex; */
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         background: steelblue;
-        /* height: 70%; */
         width: 100%;
         margin: 2%;
         padding: 1%;
     }
-    .weekDay{
-        float:left;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        background: linear-gradient( rgba(9,51,121,1) 35%, rgba(0,212,255,1) 100%);;
-        color:white;
-         border-radius: 10%;
-        height: 23%;
-        width: 24%;
-        margin: 6%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 6%;
-    }
+ 
 
     .weekday-weatherText{
         font-size: 93%;
@@ -198,6 +184,21 @@ color: crimson;
   }
   
   @media screen and (max-width: 600px) {
+
+    .weekDay-container {
+        overflow: hidden;
+        content: "";
+        display: block;
+        clear: both;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: steelblue;
+        width: 100%;
+        margin: 2%;
+        padding: 1%;
+    }
+    
     .weatherText {
       font-size:87%
     }
