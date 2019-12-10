@@ -19,7 +19,7 @@
 .weekDay-container{
     overflow: hidden;
     content: "";
-    display: block;
+   
     clear: both;
     width: 90%;
     height: 90%;
@@ -54,7 +54,7 @@
     text-align: center;
     color: white;
     font-weight:bold ;
-margin: 10%;
+    margin: 10%;
 }
 
 .day-weatherText{

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FormsModule }   from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,7 +24,6 @@ import { WeekDayComponent } from './components/week-day/week-day.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     AppRoutingModule,
     AutocompleteLibModule,
     FontAwesomeModule

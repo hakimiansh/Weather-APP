@@ -58,7 +58,7 @@
     
         <div class="weekDay-container">
            
-                <app-week-day *ngFor="let day of currentCity.weekDays" [(day)]="day" [celsius]="celsius"></app-week-day>
+                <app-week-day *ngFor="let day of currentCity.weekDays; let i=index" [(day)]="currentCity.weekDays[i]" [celsius]="celsius"></app-week-day>
             
         </div>
  

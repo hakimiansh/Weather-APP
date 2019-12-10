@@ -64,7 +64,7 @@ export class DashboardComponent implements OnInit {
       this.fillCityData(id_value)
     }
     else{
-      // this.currentCity=this.citiesService.getTelAviv();
+      
       this.fillCityData(this.currentCity.cityId)
     }
   }
