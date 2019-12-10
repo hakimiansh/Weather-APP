@@ -1,6 +1,7 @@
 .dashboard-container{
     background-color: whitesmoke;
-
+width: 100%;
+height: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,10 @@
     margin-top: 1%;
 
 }
+button{
+    width: 70%;
+    margin: 2%;
+}
 
 
 .cityTitle-container{
@@ -27,10 +32,12 @@
     padding-left: 10%;
     font-weight: bold ;
 }
+
 @keyframes example {
     from {color: black;}
     to {color: skyblue;}
   }
+  
 .cityTitle{
     font-size: 300%;
     
@@ -89,41 +96,19 @@
 }
 
 .weekDay-container{
+    border-color: steelblue;
     box-sizing: border-box;
     display:flex;
    
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: steelblue;
-    height: 70%;
-    width: 100%;
-    margin: 2%;
-    padding: 1%;
-}
-
-.weekDay{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient( rgba(9,51,121,1) 35%, rgba(0,212,255,1) 100%);;
-    color:white;
-     border-radius: 10%;
-    height: 90%;
-    width: 10%;
-    margin: 2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 1%;
-}
-
-.days-container{
+    height: 80%;
     width: 80%;
-    border-color: steelblue;
-
+    margin: 2%;
+    padding: 2.5%;
 }
-
-
 
 .weekDay-text{
     
@@ -156,58 +141,64 @@ color: crimson;
 @media screen and (max-width: 992px) {
     .weatherText {
        
-      font-size:87%;
+      font-size:176%;
     }
     .degreeText{
-        font-size: 70%;
+        font-size: 154%;
         font-weight: bold;
     }
 
     .weekDay-container {
         overflow: hidden;
         content: "";
-        display: block;
+        display: flex;
         clear: both;
+        flex-wrap: wrap;
+        align-content: space-between;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         background: steelblue;
         width: 100%;
         margin: 2%;
-        padding: 1%;
+        padding: 2.5%;
     }
+    
  
 
-    .weekday-weatherText{
-        font-size: 93%;
-    }
+    
   }
   
   @media screen and (max-width: 600px) {
 
+    button{
+        width: 70%;
+        margin: 2%;
+    }
     .weekDay-container {
         overflow: hidden;
         content: "";
-        display: block;
+        display: flex;
         clear: both;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: row; 
         align-items: center;
+        align-content: center;
         justify-content: space-between;
         background: steelblue;
-        width: 100%;
+        height: 70%;
+        width: 89%;
         margin: 2%;
-        padding: 1%;
+        padding: 4.5%;
     }
     
     .weatherText {
-      font-size:87%
+      font-size:158%
     }
     .degreeText{
-        font-size: 80%;
+        font-size: 147%;
         font-weight: bold;
     }
 
-    .weekDay-container {
-        height: 70%;
-    }
-  }
+   
+  } 

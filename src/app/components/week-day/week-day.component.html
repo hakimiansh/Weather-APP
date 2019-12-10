@@ -1,8 +1,8 @@
 <div class="day">
-    <span class="weekDay-text">{{day.dayName}}</span>
+    <span class="day-text">{{day.dayName}}</span>
 
     <img class="DayIcon" [src]="day.logoUrl">
-    <span class="weekday-weatherText">{{day.weatherText}}</span>
-    <span *ngIf="celsius">{{day.degree.celsius}}</span>
-    <span *ngIf="!celsius">{{day.degree.fahrenheit}}</span>
+    <span class="day-weatherText">{{day.weatherText}}</span>
+    <span class="degreeText" *ngIf="celsius">{{day.degree.celsius}}</span>
+    <span class="degreeText" *ngIf="!celsius">{{day.degree.fahrenheit}}</span>
 </div>

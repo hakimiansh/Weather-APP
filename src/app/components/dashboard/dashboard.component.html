@@ -55,26 +55,12 @@
         </div>
     </div>
 
-    <div class="days-container">
-
-
+    
         <div class="weekDay-container">
-
-
-            <div class="weekDay" *ngFor="let day of currentCity.weekDays">
-                <app-week-day [(day)]="day" [celsius]="celsius"></app-week-day>
-                <!-- <span class="weekDay-text">{{day.dayName}}</span>
-
-                <img class="DayIcon" [src]="day.logoUrl">
-                <span class="weekday-weatherText">{{day.weatherText}}</span>
-                <span *ngIf="celsius">{{day.degree.celsius}}</span>
-                <span *ngIf="!celsius">{{day.degree.fahrenheit}}</span> -->
-
-            </div>
-
+           
+                <app-week-day *ngFor="let day of currentCity.weekDays" [(day)]="day" [celsius]="celsius"></app-week-day>
+            
         </div>
-
-
-    </div>
+ 
 
 </div>
