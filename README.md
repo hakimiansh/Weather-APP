@@ -3,7 +3,7 @@
 By the Search and selected the required City (english letters and digits only), you will receive the current weather on this city and it's weather within the upcoming 5 days.
 
 * Once you will add the first favority city, you will be able to see the favoites cities in the "Favorites" page", otherwise the page will be blank.
-* The favorite cities are saved on the <b> local storage </b>.
+* The favorite cities are saved on the <b> local storage <b>.
 * Once you'll click on any favorite city, it's will return to the dashboard to show you the weather of selected city.
 
 * Once you'll click on the "F/C" button  , the celsius will change to fahrenheit in this page only.
